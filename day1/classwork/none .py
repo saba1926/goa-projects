@@ -1,1 +1,0 @@
-#saklaso samushao ar mqonda

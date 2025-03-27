@@ -1,0 +1,38 @@
+<!-- 3) შექმენით სარეგისტრაციო გვერდი, რომელზეც გექნებათ ფორმა, მასში მოქცეული იქნება 4 შესატანი ველი,
+თითოთეულს ექნება თავისი მითითებელი რომელშიც ეწერება თუ რა უნდა შეიყვანოს მომხმარებლა კონკრეტულ ველში,
+ყველა შესატანი ველი დააშორეთ ერთმანეთისგან საბოლოოდ კი აიღეთ ერთი ღილაკი ტექსტით "Register"
+
+აუცილებლად დააკავშირეთ შესაყვანი ველები label-ებთან for და id ატირბუტების საშვალებით
+
+label - for
+input - id
+
+სახელი
+გვარი
+ემაილი
+პაროლი
+-->
+<html>
+    <head>
+        <title>new task</title>
+    </head>
+    <body>
+        <h1>task3 html website</h1>
+        <form>
+            <label for="firstname">name</label>
+            <input type="firstname" id="firstname">
+
+            <label for="surname">surname</label>
+            <input id="surname" type="surname"> 
+
+            <label for="gmail">your gmail</label>
+            <input id="gmail" type="gmail">
+
+            <label for="password">password</label>
+            <input id="password" type="password">
+        </form>
+        <button>
+            Register
+        </button>
+    </body>
+</html>

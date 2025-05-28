@@ -1,0 +1,19 @@
+h1{
+    text-align: center; 
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    color: azure;
+    background-color: black;
+    border-radius: 20px;
+}
+
+button{
+    text-align: center;
+    color: green;
+    background-color: aquamarine;
+
+}

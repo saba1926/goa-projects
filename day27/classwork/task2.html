@@ -1,0 +1,52 @@
+<!-- 4) interal css-ში 1 წესის საშვალებით გასტილეთ 2 h1 და h2 ვებგვერდზე, ასევე მეორე წესის საშვალებით გასტილეთ div-ში არსებული ყველა პარაგრაფი,
+მინმიუმ მიანიჭეთ color და background-color შეეცადეთ გამოიყენოთ ყველა კუთვნილება.
+კომენტარებით ახსენით თუ რა არის CSS-ის წესი
+-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<title>CSS წესების მაგალითი</title>
+
+<style>
+    /* 
+        CSS წესი შედგება:
+        
+selector (მონიშვნა, რომელი ელემენტისთვის ვრცელდება),
+declaration block (შიგნით არის კუთვნილებები და მათი მნიშვნელობები)*/,
+,
+
+
+    h1, h2 {
+    color: white; 
+    background-color: darkblue;
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 5px; 
+    }
+
+
+    div p {
+    color: #333; 
+    background-color: #f0f0f0;
+    font-size: 16px; 
+    line-height: 1.5; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+    }
+</style>
+</head>
+<body>
+
+<h1>სათაური 1</h1>
+<h2>სათაური 2</h2>
+
+<div>
+    <p>ეს არის პირველი პარაგრაფი div-ის შიგნით.</p>
+    <p>ეს არის მეორე პარაგრაფი div-ის შიგნით.</p>
+</div>
+
+</body>
+</html>
